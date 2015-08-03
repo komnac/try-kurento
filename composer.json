@@ -1,0 +1,23 @@
+{
+    "name": "komnac/try-kurento",
+    "description": "Try kurento usage",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "komnac",
+            "email": "kirillkomlev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "rukavinamilan/kurento-client-php": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rukavina/kurento-client-php"
+        }
+    ]
+}
